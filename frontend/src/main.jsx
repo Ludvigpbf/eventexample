@@ -6,6 +6,7 @@ import Press from "./pages/Press.jsx";
 import About from "./pages/About.jsx";
 /* import Navbar from "./components/Navbar.jsx"; */
 import "./index.css";
+import "../locales/i18n.tsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
